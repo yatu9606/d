@@ -1,0 +1,9 @@
+mkdir maventest1 
+cd maventest1 
+mvn archetype:generate -DgroupId=com.dineshonjava -DartifactId=Javateam  -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+git init 
+git add . 
+git commit -m “azure pipeline example” 
+git branch -M main 
+git remote add origin https://github.com/gurumurthy974/maventestazure.git 
+git push -u origin main
